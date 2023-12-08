@@ -1,4 +1,56 @@
+body {
+  font-family: Inter;
+}
+
 .green-highlight {
   color: #38FAC4;
   font-weight: 800;
+}
+
+b {
+  font-weight: 800;
+}
+
+.grid-box {
+  background-color: #1E1E1E;
+  border: solid 3px #1E1E1E;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 9px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 217px;
+  width: 1fr;
+  flex-direction: column;
+  font-family: Montserrat;
+}
+
+.grid-box.blur {
+  background-color: #1E1E1EB0;
+}
+
+
+.grid-box .title {
+  font-size: 28px;
+  line-height: 31px;
+  text-align: center;
+  font-weight: 800;
+}
+.grid-box .date {
+  margin-top: 8px;
+  color: #38FAC4;
+  font-size: 18px;
+  line-height: 22.5px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.grid-box .note {
+  opacity: 0.6;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  font-weight: 600;
 }
