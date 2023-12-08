@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" />
+    <script>
+      var dataLayer = window.dataLayer || []
+    </script>
   </head>
   <body style="margin: 0; padding: 0;">
 
@@ -22,9 +25,10 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Section 1 -->
     <div style="display: flex; flex-direction: column; width: 100%; overflow: hidden;">
-      <div style="background: url(./assets/sec1/bg-pagina1.webp); height: 800px; background-repeat: no-repeat; background-size: cover; background-position: center; display: flex; align-items: center; flex-direction: column; position: relative">
+
+      <!-- Section 1 -->
+      <div style="background: url(./assets/sec1/bg-pagina1.webp); height: 800px; background-repeat: no-repeat; background-size: cover; background-position: center; display: flex; align-items: center; flex-direction: column; position: relative" class="section1">
         <div style="display: flex; justify-content: center; background: #00000068; backdrop-filter: blur(10px); height: 109px; width: 100%;">
           <img src="assets/header.png" width="144px"/>
         </div>
@@ -53,7 +57,7 @@
 
       <!-- Section 2 -->
       <div style="background: url(./assets/sec2/bg.png); height: 921px; background-repeat: no-repeat; background-size: cover; background-position: center; display: flex; align-items: center; flex-direction: column; position: relative">
-        <div style="font-family: 'Montserrat'; font-size: 50px; color: white; font-weight: 600; line-height: 50px; margin-top: 116px;">
+        <div style="font-family: 'Montserrat'; font-size: 50px; color: white; font-weight: 600; line-height: 50px; margin-top: 116px; text-align: center;">
           Entre na torcida na <span class="green-highlight">batalha de X1</span>
         </div>
 
@@ -79,7 +83,8 @@ e você pode ver tudo de perto, ao lado dos seus ídolos.
 
         <a href="https://www.pokerstars.com/signup/?source=furiapsx1" style="width: 500px; height: 90px; background-color: #D70E0E; border-radius: 5px; color: white; font-weight: 700; font-family: Montserrat; display: flex; align-items: center; justify-content: center; font-size: 32px; line-height: 24px; margin-top: 40px; user-select: none; cursor: pointer; position: relative;"
         onmouseover="this.style.backgroundColor = '#e71E1E'"
-        onmouseout="this.style.backgroundColor = '#D70E0E'">
+        onmouseout="this.style.backgroundColor = '#D70E0E'"
+        onclick="dataLayer.push('crie_sua_conta_agora')">
           CRIE SUA CONTA AGORA
           <img src="assets/sec3/pokerstar simbolo.webp" style="position: absolute; right: -90px;" />
         </a>
@@ -179,7 +184,8 @@ e você pode ver tudo de perto, ao lado dos seus ídolos.
             </div>
             <a href="https://www.pokerstars.com/signup/?source=furiapsx1" style="width: 504px; height: 90px; background-color: #38FAC4; border-radius: 5px; color: black; font-weight: 700; font-family: Montserrat; display: flex; align-items: center; justify-content: center; font-size: 32px; line-height: 24px; user-select: none; cursor: pointer"
             onmouseover="this.style.backgroundColor = '#58FFD4'"
-            onmouseout="this.style.backgroundColor = '#38FAC4'">
+            onmouseout="this.style.backgroundColor = '#38FAC4'"
+            onclick="dataLayer.push('crie_sua_conta')">
               CRIE SUA CONTA
             </a>
           </div>
