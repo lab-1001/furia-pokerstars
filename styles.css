@@ -60,7 +60,12 @@ b {
   font-weight: 600;
 }
 
-@media (max-width: 900px) {
+html {
+  font-size: 1px;
+}
+
+@media screen and (max-width: 900px) {
+
   .section1 {
     height: fit-content !important;
   }
