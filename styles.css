@@ -2,6 +2,10 @@ body {
   font-family: Inter;
 }
 
+p {
+  margin: 0;
+}
+
 .green-highlight {
   color: #38FAC4;
   font-weight: 800;
