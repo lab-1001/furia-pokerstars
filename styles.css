@@ -2,11 +2,7 @@ body {
   font-family: Inter;
 }
 
-p {
-  margin: 0;
-}
-
-h2 {
+p, h2, h3 {
   margin: 0;
 }
 
