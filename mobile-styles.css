@@ -3,7 +3,7 @@ html {
 }
 
 section {
-  padding: 60px 30px;
+  padding: 60rem 30rem;
   display: flex;
   flex-direction: column;
   align-items: center;

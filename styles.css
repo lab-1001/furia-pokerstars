@@ -1,5 +1,8 @@
 body {
   font-family: Inter;
+  color: white;
+  background-position: center;
+  background-size: cover;
 }
 
 p, h2, h3 {
