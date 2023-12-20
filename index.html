@@ -179,7 +179,8 @@ e você pode ver tudo de perto, ao lado dos seus ídolos.
             <div class="date">Dia 15 às 22h</div>
           </div>
           
-          <div class="grid-box">
+          <div class="grid-box tooltip">
+            <div class="tooltip-text"><img src="assets/popup/tabela.png" alt="Tabela" width="500px"></div>
             <div class="title">Torneios Last Chance Neymar</div>
             <div class="note">Últimos tickets</div>
             <div class="date">Dia 21 a partir das 15h</div>
@@ -191,10 +192,11 @@ e você pode ver tudo de perto, ao lado dos seus ídolos.
             <div class="date">Dia 21 às 20h00</div>
           </div>
           
-          <div class="grid-box">
+          <div class="grid-box tooltip">
+            <div class="tooltip-text"><img src="assets/popup/tabela2.png" alt="Tabela" width="500px"></div>
             <div class="title">Torneios Last Chance Sofia</div>
             <div class="note">Últimos tickets</div>
-            <div class="date">Dia 21 a partir das 15h</div>
+            <div class="date">Dia 22 a partir das 15h</div>
           </div>
           
           <div class="grid-box">
@@ -538,7 +540,7 @@ e você pode ver tudo de perto, ao lado dos seus ídolos.
           <div class="table-cell focus">
             <h3>Torneios Last Chance Sofia</h3>
             <sub>Últimos tickets</sub>
-            <p>Dia 21 a partir das 15h</p>
+            <p>Dia 22 a partir das 15h</p>
           </div>
           
           <div class="table-cell focus">
@@ -735,7 +737,7 @@ e você pode ver tudo de perto, ao lado dos seus ídolos.
       const mobile = document.createElement('link')
       mobile.rel='stylesheet'
       mobile.href='./mobile-styles.css'
-      
+
       if (window.screen.width < 800) {
         document.getElementsByTagName('html')[0].style.fontSize = `${window.screen.width / 390}px`
         console.log(document.getElementsByTagName('html')[0].style.fontSize)
