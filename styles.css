@@ -22,6 +22,17 @@ b {
   font-weight: 800;
 }
 
+@keyframes popup {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.2;
+  }
+  100% { }
+}
+
 .grid-box {
   background-color: #1E1E1E;
   border: solid 3px #1E1E1E;
