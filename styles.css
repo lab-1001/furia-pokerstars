@@ -32,7 +32,7 @@ b {
   align-items: center;
   justify-content: center;
   color: white;
-  height: 217px;
+  height: 187px;
   width: 1fr;
   flex-direction: column;
   font-family: Montserrat;
@@ -44,8 +44,8 @@ b {
 
 
 .grid-box .title {
-  font-size: 28px;
-  line-height: 31px;
+  font-size: 23px;
+  line-height: 27px;
   text-align: center;
   font-weight: 800;
 }
@@ -53,8 +53,8 @@ b {
 .grid-box .date {
   margin-top: 8px;
   color: #38FAC4;
-  font-size: 18px;
-  line-height: 22.5px;
+  font-size: 16px;
+  line-height: 20.5px;
   text-align: center;
   font-weight: 700;
 }
